@@ -3,7 +3,7 @@
 @section('title', 'Product Management')
 @section('content-header', 'Product Management')
 @section('content-actions')
-<a href="{{route('products.create')}}" class="btn btn-success"><i class="fas fa-plus"></i> Add New Product</a>
+<a href="{{route('products.create')}}" class="btn btn-success"><i class="fas fa-plus"></i> Enter New Product</a>
 @endsection
 @section('css')
 <link rel="stylesheet" href="{{ asset('plugins/sweetalert2/sweetalert2.min.css') }}">
