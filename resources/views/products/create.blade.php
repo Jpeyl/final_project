@@ -47,7 +47,7 @@
             </div>
 
             <div class="form-group">
-                <label for="barcode">Barcode</label>
+                <label for="barcode">Barcodes</label>
                 <input type="text" name="barcode" class="form-control @error('barcode') is-invalid @enderror"
                     id="barcode" placeholder="Enter barcode number" value="{{ old('barcode') }}">
                 @error('barcode')
