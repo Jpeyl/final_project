@@ -10,7 +10,7 @@
             <div class="small-box bg-purple">
               <div class="inner">
                   <h3>{{$products_count}}</h3>
-                <p>Total Products</p>
+                <p>Product Total</p>
               </div>
               <div class="icon">
               <i class="fas fa-dolly-flatbed"></i>
